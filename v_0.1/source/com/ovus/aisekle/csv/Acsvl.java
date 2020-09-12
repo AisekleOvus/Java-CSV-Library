@@ -45,7 +45,7 @@ public class Acsvl {
         return lines.entrySet().stream().allMatch(entry -> entry.getValue().split(delimiter).length == fileColumnsCounter);
     }
 	
-	//                                   Fine Line Method
+	//                                   Find Line Method
 	
 	public static void findLine(File file, String searchString, BiConsumer<Long, String> callback) 
 			throws AcsvlException {
