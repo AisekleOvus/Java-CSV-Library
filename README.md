@@ -21,7 +21,7 @@
 ``` public static Map.Entry<Long, String> findNextLine(File file, String searchString, long startRow, int inColumn, String delimiter) ```
 * **file** - file object to search in
 * **searchString** - what to search
-* **startRaw**  - points on which raw to start searching, *optional parameter* 
+* **startRaw**  - points on which raw to start searching 
 * **inColumn**  - points on in which column to search, *optional parameter* 
 * **delimiter** - delimiter of columns in file,  *optional parameter by default is ' __;__ '*
 * **The method returns Map.Entry Object with *"found raw number as "KEY"* and *the found line as "VALUE"***
